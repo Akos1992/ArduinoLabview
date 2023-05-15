@@ -1,0 +1,1 @@
+Ide kerülnek fel a felhasznált eszközök adatlapjai
