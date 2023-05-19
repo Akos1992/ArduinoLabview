@@ -9,6 +9,9 @@ Ennek a projektnek a megvalósítása megkövetelte számunkra még új programo
 ## 2. Projekt
 A szóban forgó projektet négy fős csapatunk alkotta meg egy senior egyetemi társunk támogatásával. 
 A projekt célja egy PIR (Passive Infra Red), vagyis passziv infravörös mozgásérzékelő szenzor létrehozása, amely nem pusztán a mozgást érzékeli, hanem a hőmérsékletet és annak változását is. Azért választottuk a mozgásérzékelőt projektünk tárgyává, mivel – a mechanikai védelmet leszámítva – elsődleges szerepe van a biztonságtechnikában.
+
+![r_infra_szoba](https://github.com/Akos1992/ArduinoLabview/assets/33879457/e0af9a1b-717b-432d-a2fd-3dbc8b93ebc9)
+
 Elképzelésünk az Arduino Uno-n, a „hobbielektronikások” kedvenc vezérlőjén alapul, melynek legfőbb tulajdonsága a vezérlésekhez történő egyszerű programozhatóság, valamint számos leírás található hozzá az interneten, továbbá könnyen hozzáilleszthetők különböző típusú szenzor kitek is.
 A kapcsolat monitorozásához a Labview-t vesszük igénybe, amelynek segítségével nemcsak bonyolult programok rövid idő alatt történő megírása lehetséges, hanem rendkívül népszerű a gépész- és villamosmérnöki területen.
 A jelzés soros porton érkezik a számítógépre, amit a Labview-val dolgozunk fel. Az Arduino Uno-ban úgy írjuk meg a programot, hogy az HIGH vagy LOW feszültségértéket vizsgáljon. Ezt az értékinformációt alakítjuk át a Labview-ban IGAZ/HAMIS értékké. Ha az érték „IGAZ”, akkor azt rögzítjük egy excelben, majd az összegyűjtött adatokat óránként elküldjük saját magunknak, a projektgazdáknak egy SMTP szerveren keresztül, hogy bárhol megnyitható legyen.
