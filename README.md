@@ -14,7 +14,7 @@ A projekt célja egy PIR (Passive Infra Red), vagyis passziv infravörös mozgá
 
 Elképzelésünk az Arduino Uno-n, a „hobbielektronikások” kedvenc vezérlőjén alapul, melynek legfőbb tulajdonsága a vezérlésekhez történő egyszerű programozhatóság, valamint számos leírás található hozzá az interneten, továbbá könnyen hozzáilleszthetők különböző típusú szenzor kitek is.
 A kapcsolat monitorozásához a Labview-t vesszük igénybe, amelynek segítségével nemcsak bonyolult programok rövid idő alatt történő megírása lehetséges, hanem rendkívül népszerű a gépész- és villamosmérnöki területen.
-A jelzés soros porton érkezik a számítógépre, amit a Labview-val dolgozunk fel. Az Arduino Uno-ban úgy írjuk meg a programot, hogy az HIGH vagy LOW feszültségértéket vizsgáljon. Ezt az értékinformációt alakítjuk át a Labview-ban IGAZ/HAMIS értékké. Ha az érték „IGAZ”, akkor azt rögzítjük egy excelben, majd az összegyűjtött adatokat óránként elküldjük saját magunknak, a projektgazdáknak egy SMTP szerveren keresztül, hogy bárhol megnyitható legyen.
+A jelzés soros porton érkezik a számítógépre, amit a Labview-val dolgozunk fel. Az Arduino Uno-ban úgy írjuk meg a programot, hogy az HIGH (3,3 V) vagy LOW (0 V) feszültségértéket vizsgáljon. Ezt az értékinformációt alakítjuk át a Labview-ban IGAZ/HAMIS értékké. Ha az érték „IGAZ”, akkor azt rögzítjük egy excelben, majd az összegyűjtött adatokat óránként elküldjük saját magunknak, a projektgazdáknak egy SMTP szerveren keresztül, hogy bárhol megnyitható legyen.
 A dedikált e-mail címet a freemail.hu levelezőrendszer szolgáltatónál hozzuk létre mivel a népszerű gmail.com ezen szolgáltatása 2022-ben megszűnt.
 
 Branch-ben kezeljük a különálló VI (Labview) projektet:
@@ -30,10 +30,10 @@ A végleges befejezés határideje 2023. május 31.
 Arduino, Labview
 
 ## 5. Szerzők
-•	Csík Ákos
+• 	Schmidt Anikó
 •	Maró Melinda
+•	Csík Ákos
 •	Kenyeres Tamás
-•	Schmidt Anikó
 
 ## 6. Visszajelzés
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
