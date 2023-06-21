@@ -76,21 +76,19 @@
     Adatbázis terv elhanyagolható, adatokat tekintve csak a mozgás kezdetét logoljuk időpontjént. később ez fejleszthető pl távolság kiegészítésével.
 
 # 10. Fizikai környezet
-	A webes hírportál jelenelg elérhető bármilyen eszközről ami képes letölteni a github oldalról a forrást
+        - Mikrokontroller
+        - Mozgásérzékelő szenzor
+        - Relé
+        - Számítógép
 
 # 11. Architekturális tervezés:
-	Az alkalmaos fő komponensei:
-		- Frontend
-		- Backend
-		- Adatbázis
-	Kapcsolatok:
-		- Frontend: a felhasználók által elérhető felület kialakítása
-		- Backend: A frontend kiszolgálás adatokkal
-		- Adatbázis: SQL szerver létrehozása Backend kiszolgálási adatokkal
+	Az alkalmazás fő komponensei:
+        - Arduino IDE
+        - Labview
+	
 
 # 12. Biztonsági funkciók
-	Az oldal biztonságossá tétele érdekében a hírek szerkesztése, létrehozása regisztrációhoz kötött.
-	Amit hitelesítési eljárás következtében adható meg, egy tervező általi hozzárendelt kapcsolattal.
+    Fejleszést követel, egyelőre az email cím jelszava még nem rejtett
 
 # 13. Tesztelés
 	A tesztelések célja, hogy a termék megfeleljen minden korábban leírásra került rendszerspecifikációnak.
