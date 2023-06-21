@@ -3,13 +3,13 @@
 
 ## Tesztelést végezte:
 
-|               | Felhasználó   |
-| --- | ------- |
-| Név:          | Csík Ákos     |
-| Neptun kód:   | IEX9ME        |
-| Dátum:        | 2023.06.21   |
-| Szoftver:     | Labview Community 2023 x86  |    Labview 2022 x64       | Arduino IDE     
-| OS            | Windows 11 Pro 22H2 Build: 22621.963  |   Windows 10 pro 22H2 Build 19045
+|               | Felhasználó   |           |            | 
+| --- | ------- |           |            |            | 
+| Név:          | Csík Ákos     |           |            | 
+| Neptun kód:   | IEX9ME        |           |            | 
+| Dátum:        | 2023.06.21   |           |            | 
+| Szoftver:     | Labview Community 2023 x86  |    Labview 2022 x64       | Arduino IDE                 | 
+| OS            | Windows 11 Pro 22H2 Build: 22621.963  |   Windows 10 pro 22H2 Build 19045           | 
 
 <hr>
 
