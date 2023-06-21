@@ -60,13 +60,20 @@
 
 <hr>
 
-## 4. Teljes program tesztelése
+## 4. Teljes program tesztelése - Észleléskor küld emailt Branch
 |Lépés| Feladat|  Mikor | OK/NOK | Határidő |
 | --- | ------- | - | - | - |
 | 1.    | Az összeépített SUB VI-k, műdkösée megfelelő? |       2023.06.21      |      ok     |           | 
-| 2.    | Excellel képesek vagyunk megnyitni a kívánt dokumentumot?|      2023.06.21      |      ok     |           |     
-| 3.    | Működik a labview által készített önálló úgynevezettt SUB VI -ba előre stringként kezelt adatokat kimenteni?|        2023.06.21      |      ok     |           | 
-| 4.    | A string változóba működik az időpont mentése, amikor a mozgás történt? |      2023.06.21      |      ok   |         | 
-| 5.    | XLS fájl létrehozása sikeres? |      2023.06.21      |      NOK   |     2023.06.21 - javítva   |         | 
-| 6.    | CSV fájl létrehozása sikeres? |      2023.06.21      |      OK   |      |         | 
+| 2.    | A program visszajelez mikor érzékelést tapasztal a szenzor? |      2023.06.21      |      ok     |           |     
+| 3.    | Megérkezik az email amikor észlelést érzékel? |        2023.06.21      |      ok     |           | 
+
+<hr>
+
+## 5. Teljes program tesztelése - Észleléskor küld emailt Branch
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Az összeépített SUB VI-k, műdkösée megfelelő? |       2023.06.21      |      ok     |           | 
+| 2.    | A program visszajelez mikor érzékelést tapasztal a szenzor? |      2023.06.21      |      ok     |           |     
+| 3.    | Megérkezik az email amikor észlelést érzékel? |        2023.06.21      |      ok     |           | 
+
 <hr>
