@@ -53,97 +53,27 @@
 	A kész verziót Júniusi vizsgaidőszakban nyújtuk bemutatásra. 
 
 # 5. Mérföldkövek
-	Több mérföldkő szerepel terveink között. Első mindenképp a specifikációk létrehozása. Ennek a mérföldkő lezárása 2022.11.20.
-	Ezzel egy időben a frontend kezelhető verziójának létrehozása is cél. Amit folyamatos tesztelés és csiszolgatás követ a projekt lezárásáig.
-	Ha már közel használható frontend verzióval rendelkezünk, elkezdődik az adatbázis létrehozása.
-	Adatbázis létrehozása közben szerencsénk van tesztelés végett már rendelkezésre álló hírportálok dokumentumait felhasználni. Természetesen ezek törlésre kerülnek a weboldal indulásakor.
-	Ha az adatbázis tartalmaz adatokat, akkor Node.JS-ben a kapcsolatok létrehozására kerül sor. 
-	Terveink közt szerpeel, hogy a 2022.December hónapjának végétől csak tesztelés fog történni.
+	Több mérföldkő szerepel terveink között. 
+    Első: UNO programozás, adatok beolvasása, soros porton való kommunikáció, az IDE-n leolvasni az adatokat
+    Második: LAbview programozás, az IDE-n látott soros porti adatok viszont látása egy labview programban
+    Harmadik: Logolni az adatokat egy CSV fájlban, és excelben nyomon követni
+    Negyedik: SMTP email használatával, csatolmányt küldeni egy kijelölt címre
+    Ötödik: Mindezek kombinálása, és a program véglegesítése
 
 # 6. Követelmények
 	Funkciónális követelmények
-		- Admin rögzítés
-		- Admin módosítás
-		- Felhasználó rögzítés
-		- Felhasználó módosítás
-		- Hír létrehozás
-		- Hír szerkesztés
+        - Képes legyen mozgást érzékelni
+        - Az adatokat interneten keresztül emailben elküldeni
 	Nem funkcinális követelmények:
 		- Problémamentes működés
 		- Felhasználóbarát 
-		- Reszponzív
 		- Törvényi előírások, szabályok betartása
 
 # 7. Funkcionális terv
-	Szereplők:
-		- Admin / Szerkesztő
-		- Olvasó (bejelentkezés nélkül)
-	Rendszerhasználati esetek és lefutásaik:
-		-Admin
-			- Cikk létrehozás, szerkesztés
-		-Olvasó
-			- Cikk olvasás
-	Menü-hierarchiák:
-		- Kezdőlap
-		- Bemutatkozás
-		- Kapcsolat
-		- Kategóriák
-		- Adatvédelmi irányelvek
+        - Dedikált email cím
 
 # 8. Adatbázis terv
-	Az adatbázis elérhető az alábbi github oldalon:
-		https://github.com/Akos1992/Hiroldal_2022_01/tree/main/Database
-
-	Híroldal cikkei: adatbázisba szervezve (sqlite)
-	A cikkek tematikusan csoportosítva (kategóriák)
-	Adminok bejelentkezési adatai is az adatbázisban tárolódnak
-
-      - USER tábla
-         - userID INTEGER PRIMARY KEY UNIQUE
-         - userNev TEXT (40)
-         - email TEXT (40)
-         - pword TEXT (4)
-         - regDatum DATETIME
-
-	Az ÁSZF oszlop segítségével jogilag igazolva van a hatóság felé, hogy a felhasználó elfogadta az 
-	ÁSZF-et a regisztfáció során, vagyis többek közt a weboldal és webshop felhasználási feltételeit.
-
-      - KATEGORIA tábla
-         - katID INTEGER PRIMARY KEY UNIQUE
-         - katNev TEÍXT (40)
-
-      - CIKKEK tábla:
-         - cikkID INTEGER PRIMARY KEY UNIQUE
-         - cikkCim TEXT (100)
-         - cikkLead TEXT (500)
-         - cikkTorzs TEXT (4000)
-         - cikkSzerzo TEXT (40)
-         - cikkDate DATETIME
-         - vezetoHir BOOLEAN DEFAULT FALSE
-         - katID INTEGER FOREIGN KEY
-         - Megkötések a táblához: a CIKKEK tábla katID-ja idegen kulcs, N:1 kapcsolatban van a KATEGORIA tábla katID-jával 
-
-	Megkötések a táblához:
- 	A KATEGORIA tábla katID attributuma, mint elsődleges kulcs 1:N 
-    Lentebb megtalálható képmetszetek menüpontben az adatbázishoz tartozó egyed-kapcsolat ábra.
-
-# 9. Backend végpontok(API leíró):
-
-    - /news
-	    - GET / - minden hírt visszaad
-	    - GET /:id - az adott id-jú hírt adja vissza
-	    - GET ?category=:id - adott kategóriájú híreket ad vissza
-	    - POST ?newsData={newsObject} - új hír hozzáadása vagy szerkesztése
-	    - DELETE /:id - az adott id-jú hírt törli
-	    - PUT legyen a szerkesztésre külön?
-	
-    - /categories
-	    - GET / - minden kategóriát visszaad
-	
-    - /auth
-	    - POST / - adott felhasználónév és jelszó alapján bejelentkezik(csak adminok)
-
-
+    Adatbázis terv elhanyagolható, adatokat tekintve csak a mozgás kezdetét logoljuk időpontjént. később ez fejleszthető pl távolság kiegészítésével.
 
 # 10. Fizikai környezet
 	A webes hírportál jelenelg elérhető bármilyen eszközről ami képes letölteni a github oldalról a forrást
