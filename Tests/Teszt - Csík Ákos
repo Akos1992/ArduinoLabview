@@ -1,0 +1,121 @@
+# <div align="center">Tesztjegyzőkönyv - Csík Ákos </div>
+<hr>
+
+## Tesztelést végezte:
+
+|               | Felhasználó   |
+| --- | ------- |
+| Név:          | Csík Ákos     |
+| Neptun kód:   | IEX9ME        |
+| Dátum:        | 2023.06.21   |
+| Szoftver:     | Labview Community 2023 x86  |    Labview 2022 x64       | Arduino IDE     
+| OS            | Windows 11 Pro 22H2 Build: 22621.963  |   Windows 10 pro 22H2 Build 19045
+
+<hr>
+
+## 1.  Arudino UNO programozás
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Arduino UNO észlelése az IDE-n |    2023.06.21     |      ok     |           |           
+| 2.    | Arduino UNO soros port kommunikáció ellenőrzése alap programmal (bemeneti feszültség olvasása) |     2023.06.21      |      ok     |           | 
+| 3.    | Arduino UNO mozgásérzékelő rákötése után a megfelelő feszültségértékeket olvassa |     2023.06.21      |      ok     |           |        
+| 4.    | Arduino UNO kimeneti portok működésének tesztelése |     2023.06.21      |      ok     |           |        
+| 5.    | Arduino UNO relé modul kapcsol -e |     2023.06.21      |      ok     |           |        
+
+<hr>
+
+## 2. Labview - Arudino kapcsolat soros porton
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Komminikáció tesztelése |      2023.06.21      |      ok     |           |          
+| 2.    | Eszköz észlelése után a bemeneti értékek kiiratása megvalósul?|    2023.06.21      |      ok     |           |            
+| 3.    | Feltétel írása - Ha észlel az érzékelő, a labview képes feldolgozni, és képesek vagyunk összefüggéseket készíteni? |     2023.06.21      |      ok     |           | 
+
+
+<hr>
+
+## 3. Labview - Email kliens tesztelés
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Elérhető a projekthez dedikált email cím mindenkinek? |     2023.06.21      |      ok     |           |  
+| 2.    | Az email szerver képest az SMTP kezelésére? |     2023.06.21      |      ok     |           |   
+| 3.    | Egy szöveges üzenet kiköldése sikeresen megtörténik labview-n keresztül?  |     2023.06.21      |      ok     |           | 
+| 4.    | Csatolmány küldése, megkapja a beállított email címre a felhasználó a logolt adatokat? |     2023.06.21      |      ok     |           |     
+
+
+
+<hr>
+
+## 4. Labview - Adatok mentése
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Képesek vagyunk egy bárki által könnyedén értelmezhető adatbázist létrehozni? |       2023.06.21      |      ok     |           | 
+| 2.    | Excellel képesek vagyunk megnyitni a kívánt dokumentumot?|      2023.06.21      |      ok     |           |     
+| 3.    | Működik a labview által készített önálló úgynevezettt SUB VI -ba előre stringként kezelt adatokat kimenteni?|        2023.06.21      |      ok     |           | 
+| 4.    | A string változóba működik az időpont mentése, amikor a mozgás történt? |      2023.06.21      |      ok   |         | 
+| 5.    | XLS fájl létrehozása sikeres? |      2023.06.21      |      NOK   |     2023.06.21 - javítva   |         | 
+| 6.    | CSV fájl létrehozása sikeres? |      2023.06.21      |      OK   |      |         | 
+
+        
+
+<hr>
+
+ ## Új hír hozzáadása
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Weboldal megnyitása |        2023.06.21      |      ok     |           |  
+| 2.    | Bejelentkezés után megjelenik -e az új hír létrehozása ikon ? |         2023.06.21      |      ok     |           |       
+| 3.    | Megnyitja-e az ikon az új hír létrehozása részt? |         2023.06.21      |      ok     |           |  
+| 4.    | Cím mezőben beírható érték? |             2023.06.21      |      ok     |           |  
+| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |         2023.06.21      |      ok     |           |         
+| 6.    | Szerző mezőben beírható érték? |        2023.06.21      |      ok     |           |  
+| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |         2023.06.21      |      ok     |           |   
+| 8.    | Kategiróa mezőbe kiválaszható-e kategória?|       2023.06.21      |      ok     |           |  
+| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |        2023.06.21      |      ok     |           |     
+
+<hr>
+
+## Meglévő hír szerkesztése
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Weboldal megnyitása |       2023.06.21      |      ok     |           |  
+| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a szerkesztés ikonja ? |      2023.06.21      |      ok     |           |   
+| 3.    | Az ikon megnyomásakor belépünk a szerkesztési felületre?|      2023.06.21      |      ok     |           |  
+| 4.    | Szerkeszthető-e a cím?|        2023.06.21      |      ok     |           |  
+| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |       2023.06.21      |      ok     |           |  
+| 6.    | Szerkeszthető-e a szerző? |       2023.06.21      |      ok     |           |  
+| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |       2023.06.21      |      ok     |           |   
+| 8.    | Szerkeszthető-e a kategória? |       2023.06.21      |      ok     |           |  
+| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |      2023.06.21      |      ok     |           |           
+| 10.   | Szerkeszthető-e a szöveg? |        2023.06.21      |      ok     |           |  
+| 11.   | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |        2023.06.21      |      ok     |           |        
+| 12.   | Mentés után visszalépve a kezdőlapra már az szerkesztett hírt kapjuk? |        2023.06.21      |      ok     |           |    
+| 13.   | Az adatbázisan is már a módosított hírt látjuk?|  2023.06.21      |      NOK     |     2023.03      |   
+
+<hr>
+
+## Meglévő hír törlése
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Weboldal megnyitása |        2023.06.21      |      ok     |           |           
+| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a törlés ikonja ? |         2023.06.21      |      ok     |           |      
+| 3.    | Törlés ikonra kattintva kitörlődik a hír az oldalról ? |   2023.06.21      |      NOK     |     2023.03      |          
+| 4.    | Adatbázisból is kikerül a hír? |  2023.06.21      |      NOK     |     2023.03      |   
+
+<hr>
+
+## Adatvédelmi tájékoztató
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Weboldal megnyitása |          2023.06.21      |      ok     |           |      
+| 2.    | A kezdőlap alján található az Adatvédelmi tájékoztató minden esetben, minden oldalon megjelenik? |         2023.06.21      |      ok     |           |     
+| 3.    | Megnyitható az adatvédelmi tájékoztató minden oldalról? |        2023.06.21      |      ok     |           |     
+
+<hr>
+
+## Impresszum
+|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
+| --- | ------- | - | - | - |
+| 1.    | Weboldal megnyitása |         2023.06.21      |      ok     |           |     
+| 2.    | A kezdőlap alján található az Impresszum minden esetben, minden oldalon megjelenik? |         2023.06.21      |      ok     |           |            
+| 3.    | Megnyitható az Impresszum minden oldalról? |         2023.06.21      |      ok     |           |          
