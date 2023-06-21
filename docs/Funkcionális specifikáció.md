@@ -1,4 +1,4 @@
-1. Áttekintés
+# 1. Áttekintés
 
 Az általunk meghatározott cél lényege, hogy egy soros porton számítógéppel kommunikáló PIR LED érzékelőt, vagyis egy olyan biztonsági eszközt hozzunk létre, amely szinte vizuálisan észrevehetetlen, de pontosan érzékeli egy objektumba történő belépés vagy kilépés eseményét, és az erről összegyűjtött információhalmazt továbbítja a felhasználók részére elektronikus úton.
 
@@ -51,17 +51,17 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
         - mintavételi intervallum beállítása
         - e-mail küldés gyakoriságának beállítása
 
-## 7. 🛠 Felhasznált eszközök
+# 7. 🛠 Felhasznált eszközök
 
 Labview, Arduino, freemail.hu
-## 8. Szerzők
+# 8. Szerzők
 
 - Maró Melinda
 - Csík Ákos
 - Schmidt Anikó
 - Kenyeres Tamás
 
-## 9. Visszajelzés
+# 9. Visszajelzés
 
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
 
