@@ -69,11 +69,11 @@
 
 <hr>
 
-## 5. Teljes program tesztelése - Észleléskor küld emailt Branch
+## 5. Teljes program tesztelése - Beállított időközönként küld információt
 |Lépés| Feladat|  Mikor | OK/NOK | Határidő |
 | --- | ------- | - | - | - |
 | 1.    | Az összeépített SUB VI-k, műdkösée megfelelő? |       2023.06.21      |      ok     |           | 
 | 2.    | A program visszajelez mikor érzékelést tapasztal a szenzor? |      2023.06.21      |      ok     |           |     
-| 3.    | Megérkezik az email amikor észlelést érzékel? |        2023.06.21      |      ok     |           | 
+| 3.    | Megérkezik az email a beállított időpillanatokban? |        2023.06.21      |      ok     |           | 
 
 <hr>
