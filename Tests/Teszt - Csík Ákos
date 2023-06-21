@@ -60,62 +60,13 @@
 
 <hr>
 
- ## Új hír hozzáadása
+## 4. Teljes program tesztelése
 |Lépés| Feladat|  Mikor | OK/NOK | Határidő |
 | --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |        2023.06.21      |      ok     |           |  
-| 2.    | Bejelentkezés után megjelenik -e az új hír létrehozása ikon ? |         2023.06.21      |      ok     |           |       
-| 3.    | Megnyitja-e az ikon az új hír létrehozása részt? |         2023.06.21      |      ok     |           |  
-| 4.    | Cím mezőben beírható érték? |             2023.06.21      |      ok     |           |  
-| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |         2023.06.21      |      ok     |           |         
-| 6.    | Szerző mezőben beírható érték? |        2023.06.21      |      ok     |           |  
-| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |         2023.06.21      |      ok     |           |   
-| 8.    | Kategiróa mezőbe kiválaszható-e kategória?|       2023.06.21      |      ok     |           |  
-| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |        2023.06.21      |      ok     |           |     
-
+| 1.    | Az összeépített SUB VI-k, műdkösée megfelelő? |       2023.06.21      |      ok     |           | 
+| 2.    | Excellel képesek vagyunk megnyitni a kívánt dokumentumot?|      2023.06.21      |      ok     |           |     
+| 3.    | Működik a labview által készített önálló úgynevezettt SUB VI -ba előre stringként kezelt adatokat kimenteni?|        2023.06.21      |      ok     |           | 
+| 4.    | A string változóba működik az időpont mentése, amikor a mozgás történt? |      2023.06.21      |      ok   |         | 
+| 5.    | XLS fájl létrehozása sikeres? |      2023.06.21      |      NOK   |     2023.06.21 - javítva   |         | 
+| 6.    | CSV fájl létrehozása sikeres? |      2023.06.21      |      OK   |      |         | 
 <hr>
-
-## Meglévő hír szerkesztése
-|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
-| --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |       2023.06.21      |      ok     |           |  
-| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a szerkesztés ikonja ? |      2023.06.21      |      ok     |           |   
-| 3.    | Az ikon megnyomásakor belépünk a szerkesztési felületre?|      2023.06.21      |      ok     |           |  
-| 4.    | Szerkeszthető-e a cím?|        2023.06.21      |      ok     |           |  
-| 5.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |       2023.06.21      |      ok     |           |  
-| 6.    | Szerkeszthető-e a szerző? |       2023.06.21      |      ok     |           |  
-| 7.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |       2023.06.21      |      ok     |           |   
-| 8.    | Szerkeszthető-e a kategória? |       2023.06.21      |      ok     |           |  
-| 9.    | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |      2023.06.21      |      ok     |           |           
-| 10.   | Szerkeszthető-e a szöveg? |        2023.06.21      |      ok     |           |  
-| 11.   | Tabulátorral átirányítható-e a kijelölés a következő mezőre? |        2023.06.21      |      ok     |           |        
-| 12.   | Mentés után visszalépve a kezdőlapra már az szerkesztett hírt kapjuk? |        2023.06.21      |      ok     |           |    
-| 13.   | Az adatbázisan is már a módosított hírt látjuk?|  2023.06.21      |      NOK     |     2023.03      |   
-
-<hr>
-
-## Meglévő hír törlése
-|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
-| --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |        2023.06.21      |      ok     |           |           
-| 2.    | Bejelentkezés után megjelenik -e a hírek mellett a törlés ikonja ? |         2023.06.21      |      ok     |           |      
-| 3.    | Törlés ikonra kattintva kitörlődik a hír az oldalról ? |   2023.06.21      |      NOK     |     2023.03      |          
-| 4.    | Adatbázisból is kikerül a hír? |  2023.06.21      |      NOK     |     2023.03      |   
-
-<hr>
-
-## Adatvédelmi tájékoztató
-|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
-| --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |          2023.06.21      |      ok     |           |      
-| 2.    | A kezdőlap alján található az Adatvédelmi tájékoztató minden esetben, minden oldalon megjelenik? |         2023.06.21      |      ok     |           |     
-| 3.    | Megnyitható az adatvédelmi tájékoztató minden oldalról? |        2023.06.21      |      ok     |           |     
-
-<hr>
-
-## Impresszum
-|Lépés| Feladat|  Mikor | OK/NOK | Határidő |
-| --- | ------- | - | - | - |
-| 1.    | Weboldal megnyitása |         2023.06.21      |      ok     |           |     
-| 2.    | A kezdőlap alján található az Impresszum minden esetben, minden oldalon megjelenik? |         2023.06.21      |      ok     |           |            
-| 3.    | Megnyitható az Impresszum minden oldalról? |         2023.06.21      |      ok     |           |          
