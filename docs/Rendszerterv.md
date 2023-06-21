@@ -93,11 +93,6 @@
 # 13. Tesztelés
 	A tesztelések célja, hogy a termék megfeleljen minden korábban leírásra került rendszerspecifikációnak.
 	
-	12.1 Unit teszt
-	Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a kódok, kódrészletek megfelelően működnek-e.
-	Egy kódot vagy annak részletét csak akkor tekinthetünk késznek, ha a tesztesetek hiba nélkül lefutnak.
-
-
 	12.2 Alfa teszt
 	A teszt elsődleges célja: a már meglévő funkciók megfelelő illetve (szándékos) hibás adatokkal történő tesztelése. A tesztet a fejlesztők végzik.
 	A teszt akkor mondható sikeresnek ha  a megfelelő adatbevitel után a megfelelő funkció áll rendelkezésre. 
@@ -111,22 +106,17 @@
 	A tesztek után a fejlesztők a lehető leghamarabb kijavítják az esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
 
 # 14. Telepítési terv
-	Telepíteni nem szükséges. Egy böngészőre van szüksége a felhasználónak. Elérhető lesz a www.johirportal.hu weboldalon
+	Labivew runtime telepítése a PC-re
+    Arduino IDE telepítése, ami képes felégetni a programot a mikrokontrollerre
 
 # 15. Karbantartási terv
-	A weboldal és az adatbázis tábláinak időszakonkénti karbantartása szükséges. Lehetőség lesz a kapcsolatok oldalon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni
-	a fejleszték részére, amik javításra, fejlesztésre fognak kerülni. 
+	Időszakonkénti karbantartása szükséges. Lehetőség lesz a githubon talált adatokon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni a fejlesztők részére, amik javításra, fejlesztésre fognak kerülni. 
 
 
 
 
 # 16. 🛠 Felhasznált eszközök
-	Javascript, HTML, CSS, Bootsrap, Node.js, MYSQL Workbench, SQLite
-
-# 17. Képmetszetek
-
-	Adatbázis kapcsolat diagram:
-	![Kapcsolat diagram](https://i.imgur.com/eIJG3nA.png)
+	Arduino IDE, LABVIEW, 
 
 
 # 18. Szerzők
@@ -138,5 +128,5 @@
 # 19. Visszajelzés
 
 	Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
-	johirportal@portalok.hu
+	jkleasdf66@freemail.hu
 
