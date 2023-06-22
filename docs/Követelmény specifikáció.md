@@ -53,7 +53,17 @@
         Talán a legismertebb magyarországi ingyenes e-mail szolgáltatás. 1996-ban indult, a Soros Alapítvány fejlesztette, de 1999-ben megvásárolta a T-Online. Rendkívül népszerű volt, és ma is több millió felhasználót szolgál ki, pedig az újabb, nemzetközi levelező-rendszerek nagyon erős versenyt okozott a piacon. A google letiltotta az SMTP alapú harmadik feles kommunikáció lehetőségét, ezért egy alternatív megoldást kellett találnunk, így választottuk a freemail.hu-t.
 
 # 8. Telepítés
-    ...
+    8.1 Arduino IDE
+        Ahhoz hogy a mekrovezérlőre feltölthessük a kívánt scriptet, szükséges az vezérlőhöz készített IDE eszköz letöltése, és annak telepítése.
+        A hivatalos oldalról mindig beszerezhető a legfrissebb változatt.
+        Link: https://www.arduino.cc/en/software
+    
+    8.2 Labview
+        A PCs szoftverhez szükséges alapértelmezetten egy Labview keretprogram.
+        A program a National Instruments cég tulajdonában van, az ő oldalukról lehetséges a letöltése egy 45 napos teszt verziónak.
+        Ezzel a verzióval kipróbálhatjuk minden kiegészítőt amit valaha gyártottak a termékhez.
+        Ezen idő alatt telepítő fájl készíthető a forráskódból, amihez már csak egy Labview runtime szükséges, amit a telepítő készítő magába foglal.
+        Link: https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html
 # 9. 🛠 Felhasznált eszközök
     Labview, Arduino, freemail.hu
 
