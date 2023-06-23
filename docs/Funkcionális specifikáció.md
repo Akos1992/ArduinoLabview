@@ -53,18 +53,18 @@ Talán a legismertebb magyarországi ingyenes e-mail szolgáltatás. 1996-ban in
 - mintavételi intervallum beállítása
 - e-mail küldés gyakoriságának beállítása
 
-# 7. 🛠 Felhasznált eszközök
+# 7. Felhasznált eszközök 🛠
 
 Labview, Arduino, freemail.hu
 
-# 8. Szerzők
+# 8. Szerzők 📗
 
 - Maró Melinda
 - Csík Ákos
 - Schmidt Anikó
 - Kenyeres Tamás
 
-# 9. Visszajelzés
+# 9. Visszajelzés 📧
 
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
 
