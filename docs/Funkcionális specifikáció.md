@@ -13,21 +13,21 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
         - Feszültségérték beállítása, hogy a berendezés mekkora érték felett jelezzen
         - Mintavételi időzítő beállítása, hány milisecundumként vesz mintát
         - E-mail értesítő küldése gyakoriságának beállítása
-
+    
 # 4. Követelménylista
-      - Műszaki ismeretek
-        - Eszköz elhelyezése
-            - akadálymentes látótér
-            - zavarásmentes eszközelhelyezés
-            - eszköz darabszámának meghatározása
+- Műszaki ismeretek
+    - Eszköz elhelyezése
+        - akadálymentes látótér
+        - zavarásmentes eszközelhelyezés
+        - eszköz darabszámának meghatározása
         - Igényes megjelenés, elhelyezés
 
-      - Funkcionalitás
-        - Könnyű programozhatóság, kezelhetőség
-            - Adat létrehozása
-                - Admin képes meghatározni a mintavétel feltételeit
-            - Adat továbbítás
-            - Elektronikus üzenet a megjelölt személyek részére a feljegyzett interakciókról
+    - Funkcionalitás
+    - Könnyű programozhatóság, kezelhetőség
+        - Adat létrehozása
+        - Admin képes meghatározni a mintavétel feltételeit
+        - Adat továbbítás
+        - Elektronikus üzenet a megjelölt személyek részére a feljegyzett interakciókról
 
 # 5. Fogalomszótár
     5.1 PIR (Passive Infra Red – passzív infravörös) mozgásérzékelő
@@ -54,6 +54,7 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
 # 7. 🛠 Felhasznált eszközök
 
 Labview, Arduino, freemail.hu
+
 # 8. Szerzők
 
 - Maró Melinda
