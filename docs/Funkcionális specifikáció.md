@@ -47,9 +47,10 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
         Talán a legismertebb magyarországi ingyenes e-mail szolgáltatás. 1996-ban indult, a Soros Alapítvány fejlesztette, de 1999-ben megvásárolta a T-Online. Rendkívül népszerű volt, és ma is több millió felhasználót szolgál ki, pedig az újabb, nemzetközi levelező-rendszerek nagyon erős versenyt okozott a piacon. A google letiltotta az SMTP alapú harmadik feles kommunikáció lehetőségét, ezért egy alternatív megoldást kellett találnunk, így választottuk a freemail.hu-t.  
         
 # 6. Használati esetek
-        - feszültségérték beállítása 
-        - mintavételi intervallum beállítása
-        - e-mail küldés gyakoriságának beállítása
+
+- feszültségérték beállítása 
+- mintavételi intervallum beállítása
+- e-mail küldés gyakoriságának beállítása
 
 # 7. 🛠 Felhasznált eszközök
 
