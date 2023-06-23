@@ -23,19 +23,19 @@ Branch-ben kezeljük a különálló VI (Labview) projektet:
 * Serial soros port adat olvasás
 Majd ezeket egy egységes egészbe foglaljuk.
 
-## 3. Határidők
+## 3. Határidők ⏳
 A végleges befejezés határideje 2023. június 25. 
 
-## 4. Felhasznált eszközök
+## 4. Felhasznált eszközök 🛠
 Arduino, Labview, Freemail
 
-## 5. Szerzők
+## 5. Szerzők 📗
 - Schmidt Anikó
 - Maró Melinda
 - Csík Ákos
 - Kenyeres Tamás
 
-## 6. Visszajelzés
+## 6. Visszajelzés 📧
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
 
 
