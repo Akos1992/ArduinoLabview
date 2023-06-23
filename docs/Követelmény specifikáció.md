@@ -64,17 +64,22 @@
         Ezzel a verzióval kipróbálhatjuk minden kiegészítőt amit valaha gyártottak a termékhez.
         Ezen idő alatt telepítő fájl készíthető a forráskódból, amihez már csak egy Labview runtime szükséges, amit a telepítő készítő magába foglal.
         Link: https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html
-# 9. 🛠 Felhasznált eszközök
+
+# 9. Képmetszetek
+
+    ![Program design](https://i.imgur.com/YAAc5pf.png)
+
+# 10. 🛠 Felhasznált eszközök
     Labview, Arduino, freemail.hu
 
-# 10. Szerzők
+# 11. Szerzők
 
 - Csík Ákos
 - Kenyeres Tamás 
 - Maró Melinda
 - Schmidt Anikó
 
-# 11. Visszajelzés
+# 12. Visszajelzés
 
     Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
     asdfjkle6@gmail.com
