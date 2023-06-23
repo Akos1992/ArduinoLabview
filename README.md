@@ -18,23 +18,24 @@ A jelzés soros porton érkezik a számítógépre, amit a Labview-val dolgozunk
 A dedikált e-mail címet a freemail.hu levelezőrendszer szolgáltatónál hozzuk létre mivel a népszerű gmail.com ezen szolgáltatása 2022-ben megszűnt.
 
 Branch-ben kezeljük a különálló VI (Labview) projektet:
-	- Email kezelés
-	- Excel logolás
-	- Serial soros port adat olvasás
+* Email kezelés
+* Excel logolás
+* Serial soros port adat olvasás
 Majd ezeket egy egységes egészbe foglaljuk.
 
 ## 3. Határidők
-A végleges befejezés határideje 2023. május 31. 
+A végleges befejezés határideje 2023. június 25. 
 
 ## 4. Felhasznált eszközök
-Arduino, Labview
+Arduino, Labview, Freemail
 
 ## 5. Szerzők
-• 	Schmidt Anikó
-•	Maró Melinda
-•	Csík Ákos
-•	Kenyeres Tamás
+- Schmidt Anikó
+- Maró Melinda
+- Csík Ákos
+- Kenyeres Tamás
 
 ## 6. Visszajelzés
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
+
 
