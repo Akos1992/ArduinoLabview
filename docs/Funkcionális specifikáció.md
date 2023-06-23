@@ -9,10 +9,10 @@ A biztonsági rendszerek fejlődése az informatika fejlődésével egyenes ará
 # 3. Vágyálom rendszer
    
 A programot úgy tervezzük, hogy – ideális működése esetén – az alábbi funkciókat tartalmazza:
-        - Illetéktelen mozgás esetén jelzést adjon a felhasználónak
-        - Feszültségérték beállítása, hogy a berendezés mekkora érték felett jelezzen
-        - Mintavételi időzítő beállítása, hány milisecundumként vesz mintát
-        - E-mail értesítő küldése gyakoriságának beállítása
+-   Illetéktelen mozgás esetén jelzést adjon a felhasználónak
+-   Feszültségérték beállítása, hogy a berendezés mekkora érték felett jelezzen
+-   Mintavételi időzítő beállítása, hány milisecundumként vesz mintát
+-   E-mail értesítő küldése gyakoriságának beállítása
     
 # 4. Követelménylista
 - Műszaki ismeretek
