@@ -126,8 +126,6 @@
 	Időszakonkénti karbantartása szükséges. Lehetőség lesz a githubon talált adatokon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni a fejlesztők részére, amik javításra, fejlesztésre fognak kerülni. 
 
 
-
-
 # 16. 🛠 Felhasznált eszközök
 	- Arduino IDE
 	- LABVIEW
@@ -142,6 +140,7 @@
 	- Maró Melinda
 	- Kenyeres Tamás
 	- Schmidt Anikó
+
 # 19. Visszajelzés
 
 	Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
