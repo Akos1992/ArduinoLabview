@@ -70,7 +70,20 @@
 		- Törvényi előírások, szabályok betartása
 
 # 7. Funkcionális terv
-        - Dedikált email cím
+	Szereplők:
+		- Felhasználó
+		- Programozó
+	Rendszerhasználati esetek és lefutásaik:
+		- Programozó
+		- Email cím megadása, változtatása
+		- Küldendési frekvenciák meghatározása
+			- Hány percenként küldje
+			- Észleléskor küldje
+	Menü-hierarchiák:
+		- Indítás
+		- STOP
+		- Adatleolvasások
+
 
 # 8. Adatbázis terv
     Adatbázis terv elhanyagolható, adatokat tekintve csak a mozgás kezdetét logoljuk időpontjént. később ez fejleszthető pl távolság kiegészítésével.
