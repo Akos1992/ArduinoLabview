@@ -129,7 +129,11 @@
 
 
 # 16. 🛠 Felhasznált eszközök
-	Arduino IDE, LABVIEW, 
+	- Arduino IDE
+	- LABVIEW
+	- Arduino UNO
+	- Egy csatornás relé modul Arduinohoz
+	- Mozgásérzékelő szenzo
 
 
 # 18. Szerzők
