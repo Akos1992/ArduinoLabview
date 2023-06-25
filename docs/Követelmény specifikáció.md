@@ -18,69 +18,65 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
 - Általános Szerződési Feltételek (ÁSZF)
 
 # 4. Jelenlegi üzleti folyamatok modellje.
-    A jelenlegi üzleti modell nem kerül módosításra.
+A jelenlegi üzleti modell nem kerül módosításra.
 
 # 5. Követelménylista
-      - Műszaki ismeretek
-        - Eszköz elhelyezése
-            - akadálymentes látótér
-            - zavarásmentes eszközelhelyezés
-            - eszköz darabszámának meghatározása
-        - Igényes megjelenés, elhelyezés
+- Műszaki ismeretek
+    - Eszköz elhelyezése
+    - akadálymentes látótér
+    - zavarásmentes eszközelhelyezés
+    - eszköz darabszámának meghatározása
+- Igényes megjelenés, elhelyezés
 
 # 6. Funkcionalitás
-        - Könnyű programozhatóság, kezelhetőség
-            - Adat létrehozása
-                - Admin képes meghatározni a mintavétel feltételeit
-            - Adat továbbítás
-            - Elektronikus üzenet a megjelölt személyek részére a feljegyzett interakciókról
+- Könnyű programozhatóság, kezelhetőség
+    - Adat létrehozása
+    - Admin képes meghatározni a mintavétel feltételeit
+    - Adat továbbítás
+    - Elektronikus üzenet a megjelölt személyek részére a feljegyzett interakciókról
 
 # 7. Fogalomszótár
-    7.1 PIR (Passive Infra Red – passzív infravörös) mozgásérzékelő
+## 7.1 PIR (Passive Infra Red – passzív infravörös) mozgásérzékelő
 
-        A napjainkban használt mozgásérzékelők legnagyobb csoportját a passzív infravörös érzékelők adják. Népszerűségüket viszonylag olcsóságuknak, valamint széles felhasználási lehetőségeiknek köszönhetik.  Egy jól kiválasztott és megfelelően telepített mozgásérzékelő önmagában is képes egy teljes helyiség tér- és/vagy tárgyvédelmére.     
+A napjainkban használt mozgásérzékelők legnagyobb csoportját a passzív infravörös érzékelők adják. Népszerűségüket viszonylag olcsóságuknak, valamint széles felhasználási lehetőségeiknek köszönhetik.  Egy jól kiválasztott és megfelelően telepített mozgásérzékelő önmagában is képes egy teljes helyiség tér- és/vagy tárgyvédelmére.     
     
-    7.2 Arduino
-        
-        Egy szabad szoftveres, nyílt forráskódú elektronikai fejlesztőplatform, arra tervezve, hogy a különböző projektekben az elektronikus eszközök könnyebben hozzáférhetőek, kezelhetőek legyenek. Széles tömegek számára elérhető, mivel olcsó, könnyen beszerezhető, egyszerűen programozható, és csatlakoztatható más eszközökhöz.
+## 7.2 Arduino
+      
+Egy szabad szoftveres, nyílt forráskódú elektronikai fejlesztőplatform, arra tervezve, hogy a különböző projektekben az elektronikus eszközök könnyebben hozzáférhetőek, kezelhetőek legyenek. Széles tömegek számára elérhető, mivel olcsó, könnyen beszerezhető, egyszerűen programozható, és csatlakoztatható más eszközökhöz.
 
-    7.3 Labview
+## 7.3 Labview
 
-        Grafikus programfejlesztő, amely elsősorban méréstechnikai és a hozzákapcsolódó jelfeldolgozási feladatok megoldására szolgál. A grafikus programozás egy látványos, látszólag könnyen követhető programozási módot jelent, amely a gyártó és forgalmazók véleménye szerint a hagyományos programnyelveket nem ismerőknek készült. Mivel a rendszer virtuális műszerezésre szolgál, így az elkészült forrásprogramok vi (virtual instrument) kiterjesztést kapnak.
+Grafikus programfejlesztő, amely elsősorban méréstechnikai és a hozzákapcsolódó jelfeldolgozási feladatok megoldására szolgál. A grafikus programozás egy látványos, látszólag könnyen követhető programozási módot jelent, amely a gyártó és forgalmazók véleménye szerint a hagyományos programnyelveket nem ismerőknek készült. Mivel a rendszer virtuális műszerezésre szolgál, így az elkészült forrásprogramok vi (virtual instrument) kiterjesztést kapnak.
 
-    7.4 Freemail
-       
-        Talán a legismertebb magyarországi ingyenes e-mail szolgáltatás. 1996-ban indult, a Soros Alapítvány fejlesztette, de 1999-ben megvásárolta a T-Online. Rendkívül népszerű volt, és ma is több millió felhasználót szolgál ki, pedig az újabb, nemzetközi levelező-rendszerek nagyon erős versenyt okozott a piacon. A google letiltotta az SMTP alapú harmadik feles kommunikáció lehetőségét, ezért egy alternatív megoldást kellett találnunk, így választottuk a freemail.hu-t.
+## 7.4 Freemail
+Talán a legismertebb magyarországi ingyenes e-mail szolgáltatás. 1996-ban indult, a Soros Alapítvány fejlesztette, de 1999-ben megvásárolta a T-Online. Rendkívül népszerű volt, és ma is több millió felhasználót szolgál ki, pedig az újabb, nemzetközi levelező-rendszerek nagyon erős versenyt okozott a piacon. A google letiltotta az SMTP alapú harmadik feles kommunikáció lehetőségét, ezért egy alternatív megoldást kellett találnunk, így választottuk a freemail.hu-t.
 
 # 8. Telepítés
-    8.1 Arduino IDE
-        Ahhoz hogy a mekrovezérlőre feltölthessük a kívánt scriptet, szükséges az vezérlőhöz készített IDE eszköz letöltése, és annak telepítése.
-        A hivatalos oldalról mindig beszerezhető a legfrissebb változatt.
-        Link: https://www.arduino.cc/en/software
+## 8.1 Arduino IDE
+Ahhoz hogy a mekrovezérlőre feltölthessük a kívánt scriptet, szükséges az vezérlőhöz készített IDE eszköz letöltése, és annak telepítése.
+A hivatalos oldalról mindig beszerezhető a legfrissebb változatt.
+Link: https://www.arduino.cc/en/software
     
-    8.2 Labview
-        A PCs szoftverhez szükséges alapértelmezetten egy Labview keretprogram.
-        A program a National Instruments cég tulajdonában van, az ő oldalukról lehetséges a letöltése egy 45 napos teszt verziónak.
-        Ezzel a verzióval kipróbálhatjuk minden kiegészítőt amit valaha gyártottak a termékhez.
-        Ezen idő alatt telepítő fájl készíthető a forráskódból, amihez már csak egy Labview runtime szükséges, amit a telepítő készítő magába foglal.
-        Link: https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html
+## 8.2 Labview
+A PCs szoftverhez szükséges alapértelmezetten egy Labview keretprogram.
+A program a National Instruments cég tulajdonában van, az ő oldalukról lehetséges a letöltése egy 45 napos teszt verziónak.
+Ezzel a verzióval kipróbálhatjuk minden kiegészítőt amit valaha gyártottak a termékhez.
+Ezen idő alatt telepítő fájl készíthető a forráskódból, amihez már csak egy Labview runtime szükséges, amit a telepítő készítő magába foglal.
+Link: https://www.ni.com/hu-hu/support/downloads/software-products/download.labview.html
 
 # 9. Képmetszetek
-
-    ![Program design](https://i.imgur.com/YAAc5pf.png)
+![Program design](https://i.imgur.com/YAAc5pf.png)
 
 # 10. 🛠 Felhasznált eszközök
-    Labview, Arduino, freemail.hu
+Labview, Arduino, freemail.hu
 
 # 11. Szerzők
-
 - Csík Ákos
 - Kenyeres Tamás 
 - Maró Melinda
 - Schmidt Anikó
 
 # 12. Visszajelzés
-
-    Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
-    asdfjkle6@gmail.com
+Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
+- asdfjkle6@gmail.com
 
