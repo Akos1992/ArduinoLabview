@@ -30,10 +30,10 @@ A végleges befejezés határideje 2023. június 25.
 Arduino, Labview, Freemail
 
 ## 5. Szerzők 📗
-- Schmidt Anikó
-- Maró Melinda
 - Csík Ákos
 - Kenyeres Tamás
+- Maró Melinda
+- Schmidt Anikó
 
 ## 6. Visszajelzés 📧
 Ha bármilyen kérdésed, észrevételed vagy építő jellegű kritikád van a projekttel kapcsolatban, írj a csapatunknak az asdfjkle6@gmail.com e-mail címre.
