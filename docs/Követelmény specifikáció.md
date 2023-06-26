@@ -16,7 +16,16 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
 - Általános Szerződési Feltételek (ÁSZF)
 
 # 4. Jelenlegi üzleti folyamatok modellje.
-A jelenlegi üzleti modell nem kerül módosításra.
+Követelmény Specifikáció: Üzleti folyamatok modellje. Az üzleti modellünk alapja, hogy megismerkedjünk egy magyarországon még nem teljesen kialakult piaci rés kihasználásra. Megismerkedünk a szenzorokkal, azokk felhasználhatóságával. Programozási ismeretink kihasználva, saját és később a vevők személyes igényeinek kielégítése. Így nem egy bizonyos termékcsalád tagjait tudjuk ajánlani egy vásárlónak, hanem egyedi igényeit implementálhatjuk egy rendszerben. Az adatokat később szerveren rögzítjük, annak elérhetőségét, és vezérlését pedig VPN kapcsolattal megoldjuk a felhasználó részére.
+A mozgásérzékelő rendszer célja egy olyan termék vagy szolgáltatás kialakítása és bevezetése, amely lehetővé teszi a mozgásérzékelés alapú automatizálást és ellenőrzést. A rendszernek a következő célokat kell szolgálnia:
+- **Mozgásérzékelés:** A rendszernek képesnek kell lennie érzékelni a környezetében történő mozgást és pontosan azonosítani a mozgást.
+- **Automatizálás:** A rendszernek lehetővé kell tennie az automatizált folyamatokat és tevékenységeket a mozgásérzékelés alapján. Ez magában foglalhatja például a világítás vagy az otthoni biztonsági rendszer vezérlését a mozgás észlelésekor.Esetünkben relé kapcsolása amit később felhasználhatunk bármilyen célre.
+- **Riasztás és értesítés:** A rendszernek képesnek kell lennie riasztások kibocsátására és értesítésekre, amikor mozgást észlel. Ez lehetővé teszi a felhasználók számára, hogy azonnal tudjanak a kritikus helyzetekről vagy a potenciálisan gyanús tevékenységekről.
+- **Adatgyűjtés és elemzés:** A rendszernek képesnek kell lennie a mozgásérzékeléssel kapcsolatos adatok gyűjtésére és elemzésére. Ez segíti a felhasználókat a hosszú távú trendek és minták azonosításában, valamint az automatizált rendszer finomhangolásában és fejlesztésében.
+- **Felhasználóbarát kezelőfelület:** A rendszernek rendelkeznie kell egy felhasználóbarát kezelőfelülettel, amely lehetővé teszi a felhasználók számára a rendszer konfigurálását, a beállítások és preferenciák testre szabását, valamint az adatok megtekintését és elemzését.
+- **Skálázhatóság és kompatibilitás:** A rendszernek képesnek kell lennie a skálázhatóságra, hogy különböző méretű környezetekben használható legyen, és több mozgásérzékelő eszközzel együttműködhessen. Emellett kompatibilisnek kell lennie más rendszerekkel és eszközökkel, például okos otthoni rendszerekkel vagy mobilalkalmazásokkal.
+- **Üzleti modell fenntarthatóság:** A rendszer üzleti modelljének fenntarthatónak kell lennie hosszú távon. Ez magában foglalhatja a termék értékesítését, bérleti modellt vagy egyéb bevételi forrásokat, valamint a szerviz és támogatás hosszú távú biztosítását.
+- **Ügyfélszolgálat és támogatás:** A rendszerhez megfelelő ügyfélszolgálati és támogatási csatornáknak kell rendelkezésre állniuk a felhasználók számára. Ez magában foglalhatja a technikai segítségnyújtást, az útmutatók és a dokumentáció biztosítását, valamint az esetleges hibák vagy problémák gyors és hatékony kezelését.
 
 # 5. Követelménylista
 - Műszaki ismeretek
