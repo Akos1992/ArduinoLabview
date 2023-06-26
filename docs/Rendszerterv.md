@@ -17,31 +17,34 @@
 	Feladatai: Kommunikáció a csoporttagokkal, akadályok feltárása, támogatás.
 	Megrendelő: Közös feladat, új közös projekt, saját igények szerint, így az 
 	Eszterházy Károly Katolikus Egyetem Informatika Tanszékét tekinthetjük megrendelőnek
-	Projektfelelősök:
-		- Labview Email : 	
-				Maró Melinda
-				Csík Ákos
-				Schmidt Anikó
-				Kenyeres Tamás
 
-		- Labview Adatbázis: 	
-				Schmidt Anikó 
-				Maró Melinda
-				Kenyeres Tamás
-				Csík Ákos
+## Projektfelelősök
 
-		- Teszt 	
-				Kenyeres Tamás
-				Schmidt Anikó
-				Csík Ákos
-				Maró Melinda
+- **Labview Email :**
+	- Maró Melinda
+	- Csík Ákos
+	- Schmidt Anikó
+	- Kenyeres Tamás
+<br/><br/>
+- **Labview Adatbázis:**
+	- Schmidt Anikó 
+	- Maró Melinda
+	- Kenyeres Tamás
+	- Csík Ákos
+<br/><br/>
+- **Teszt**
+	- Kenyeres Tamás
+	- Schmidt Anikó
+	- Csík Ákos
+	- Maró Melinda
+<br/><br/>
+- **Arduino UNO programozás + Soros port kommunikáció:**	
+	- Csík Ákos
+	- Kenyeres Tamás
+	- Maró Melinda
+	- Schmidt Anikó
 
-		- Arduino UNO programozás + Soros port kommunikáció:	
-				Csík Ákos
-				Kenyeres Tamás
-				Maró Melinda
-				Schmidt Anikó
-	Minden részlegnél az első megnevezett személy a fő felelős, a többiek támogató szerepkört vesznek fel.      
+*Minden részlegnél az első megnevezett személy a fő felelős, a többiek támogató szerepkört vesznek fel.*      
 
 # 4. Ütemterv
 	Ütemterv szerint, minden héten kettő alkalommal csoportmegbeszélés létrehozása online meeting keretében a Microsoft Teams program segítségével.
