@@ -47,21 +47,21 @@ Eszterházy Károly Katolikus Egyetem Informatika Tanszékét tekinthetjük megr
 *Minden részlegnél az első megnevezett személy a fő felelős, a többiek támogató szerepkört vesznek fel.*      
 
 # 4. Ütemterv
-	Ütemterv szerint, minden héten kettő alkalommal csoportmegbeszélés létrehozása online meeting keretében a Microsoft Teams program segítségével.
-	Minden alkalommal megbeszélésre kerülnek az alábbi témakörök:
-		- Mit csináltam a legutóbbi meeting óta
-		- Mit fogok csinálni a következő meetingig
-		- Milyen akadályba ütköztem
-	Feladatok átbeszélése közben a Trello oldalán kártyákat hozunk létre a feladatokról, azokat menedzseljük. 
-	A kész verziót Júniusi vizsgaidőszakban nyújtuk bemutatásra. 
+Ütemterv szerint, minden héten kettő alkalommal csoportmegbeszélés létrehozása online meeting keretében a Microsoft Teams program segítségével.
+Minden alkalommal megbeszélésre kerülnek az alábbi témakörök:
+	- Mit csináltam a legutóbbi meeting óta
+	- Mit fogok csinálni a következő meetingig
+	- Milyen akadályba ütköztem
+Feladatok átbeszélése közben a Trello oldalán kártyákat hozunk létre a feladatokról, azokat menedzseljük. 
+A kész verziót Júniusi vizsgaidőszakban nyújtuk bemutatásra. 
 
 # 5. Mérföldkövek
-	Több mérföldkő szerepel terveink között. 
-    Első: UNO programozás, adatok beolvasása, soros porton való kommunikáció, az IDE-n leolvasni az adatokat
-    Második: LAbview programozás, az IDE-n látott soros porti adatok viszont látása egy labview programban
-    Harmadik: Logolni az adatokat egy CSV fájlban, és excelben nyomon követni
-    Negyedik: SMTP email használatával, csatolmányt küldeni egy kijelölt címre
-    Ötödik: Mindezek kombinálása, és a program véglegesítése
+Több mérföldkő szerepel terveink között. 
+0. UNO programozás, adatok beolvasása, soros porton való kommunikáció, az IDE-n leolvasni az adatokat
+0. Második: LAbview programozás, az IDE-n látott soros porti adatok viszont látása egy labview programban
+0. Harmadik: Logolni az adatokat egy CSV fájlban, és excelben nyomon követni
+0. Negyedik: SMTP email használatával, csatolmányt küldeni egy kijelölt címre
+0. Ötödik: Mindezek kombinálása, és a program véglegesítése
 
 # 6. Követelmények
 	Funkciónális követelmények
