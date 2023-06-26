@@ -1,11 +1,11 @@
 # 1. A rendszer célja(i) és nem célja(i)
-	Rendszer célja, hogy bebizonyítsuk magunknak, hogy forgalomba helyezett és könnyedén megvásárolható okos eszközök építésére, készítésére vagyunk képesek.
-	Bármely elektronikai webshopban könnyedén megvásárolható termékek összeillesztésével érünk egy kézzelfogható saját, egyedi terméket. 
-	Nem célunk, hogy az adott eszközzel kiváltsunk más, forgalomban kapható terméket. Ennek oka, hogy míg a forgalomban kapható termék ára a tömeggyártást
-	tekintva alacsonyabb, mint az általunk létrehozott eszköz, még egy már neves cégek álltal előkészített egy csomagban kapható termékspecifikációkkal rendelkező
-	termékcsaládba könnyedén belesimul, addig a mi termékünkhöz egy külön szervert, és hálózatot, egyszóval minden lehetséges és szükséges eszközt az alapoktól kell definiálni.
-	Ez költségeket tekintve jócskán magasabb, mintha már meglévő termékcsaládot választunk az okosotthon részévé.
-	A terméknek képesnek kell lennie érzékelni a mozgásokat, és azokról információt közölni interneten keresztül a felhasználóval.
+Rendszer célja, hogy bebizonyítsuk magunknak, hogy forgalomba helyezett és könnyedén megvásárolható okos eszközök építésére, készítésére vagyunk képesek.
+Bármely elektronikai webshopban könnyedén megvásárolható termékek összeillesztésével érünk egy kézzelfogható saját, egyedi terméket. 
+Nem célunk, hogy az adott eszközzel kiváltsunk más, forgalomban kapható terméket. Ennek oka, hogy míg a forgalomban kapható termék ára a tömeggyártást
+tekintva alacsonyabb, mint az általunk létrehozott eszköz, még egy már neves cégek álltal előkészített egy csomagban kapható termékspecifikációkkal rendelkező
+termékcsaládba könnyedén belesimul, addig a mi termékünkhöz egy külön szervert, és hálózatot, egyszóval minden lehetséges és szükséges eszközt az alapoktól kell definiálni.
+Ez költségeket tekintve jócskán magasabb, mintha már meglévő termékcsaládot választunk az okosotthon részévé.
+A terméknek képesnek kell lennie érzékelni a mozgásokat, és azokról információt közölni interneten keresztül a felhasználóval.
 
 # 2. A rendszert, annak működését és általa nyújtott szolgáltatásokat a következőképpen gondoljuk
 	A rendszer egy mozgásérzékelőből, egy mikrokontrollerből, és egy reléből áll. 
