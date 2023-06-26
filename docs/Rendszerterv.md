@@ -8,15 +8,15 @@ Ez költségeket tekintve jócskán magasabb, mintha már meglévő termékcsal�
 A terméknek képesnek kell lennie érzékelni a mozgásokat, és azokról információt közölni interneten keresztül a felhasználóval.
 
 # 2. A rendszert, annak működését és általa nyújtott szolgáltatásokat a következőképpen gondoljuk
-	A rendszer egy mozgásérzékelőből, egy mikrokontrollerből, és egy reléből áll. 
-	A mozgásérzékelő mozgást érzékelve megváltozott feszültségértéket küldve a mikrokontrollernek, amit az eszköz feldolgoz, átkonvertál digitális adattá, és azt továbbítja egy PC-nek, amin egy szoftver fut és ezen adatot olvasni fogja. Majd ez a számítógépen lévő program fogja kiértékelni, logolni, és értesítést küldeni a felhasználónak emailben. 
+A rendszer egy mozgásérzékelőből, egy mikrokontrollerből, és egy reléből áll. 
+A mozgásérzékelő mozgást érzékelve megváltozott feszültségértéket küldve a mikrokontrollernek, amit az eszköz feldolgoz, átkonvertál digitális adattá, és azt továbbítja egy PC-nek, amin egy szoftver fut és ezen adatot olvasni fogja. Majd ez a számítógépen lévő program fogja kiértékelni, logolni, és értesítést küldeni a felhasználónak emailben. 
 	
 # 3. Projektterv
-	Szerepkörök és felelősségek
-	Scrum master: Zsák József
-	Feladatai: Kommunikáció a csoporttagokkal, akadályok feltárása, támogatás.
-	Megrendelő: Közös feladat, új közös projekt, saját igények szerint, így az 
-	Eszterházy Károly Katolikus Egyetem Informatika Tanszékét tekinthetjük megrendelőnek
+Szerepkörök és felelősségek
+Scrum master: Zsák József
+Feladatai: Kommunikáció a csoporttagokkal, akadályok feltárása, támogatás.
+Megrendelő: Közös feladat, új közös projekt, saját igények szerint, így az 
+Eszterházy Károly Katolikus Egyetem Informatika Tanszékét tekinthetjük megrendelőnek
 
 ## Projektfelelősök
 
