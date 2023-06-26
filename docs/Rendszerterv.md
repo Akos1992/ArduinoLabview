@@ -64,25 +64,25 @@ Több mérföldkő szerepel terveink között.
 1. Mindezek kombinálása, és a program véglegesítése
 
 # 6. Követelmények
-**Funkciónális követelmények**
+- **Funkciónális követelmények**
     - Képes legyen mozgást érzékelni
     - Az adatokat interneten keresztül emailben elküldeni
-**Nem funkcinális követelmények**
+- **Nem funkcinális követelmények**
 	- Problémamentes működés
 	- Felhasználóbarát 
 	- Törvényi előírások, szabályok betartása
 
 # 7. Funkcionális terv
-**Szereplők:**
+- **Szereplők:**
 	- Felhasználó
 	- Programozó
-**Rendszerhasználati esetek és lefutásaik:**
+- **Rendszerhasználati esetek és lefutásaik:**
 	- Programozó
 	- Email cím megadása, változtatása
 	- **Küldési frekvenciák meghatározása**
 		- *Hány percenként küldje*
 		- *Észleléskor küldje*
-**Menü-hierarchiák:**
+- **Menü-hierarchiák:**
 	- Indítás
 	- STOP
 	- Adatleolvasások
