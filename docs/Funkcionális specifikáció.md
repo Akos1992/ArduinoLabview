@@ -1,6 +1,6 @@
 # 1. Áttekintés
 
-Az általunk meghatározott cél lényege, hogy egy soros porton számítógéppel kommunikáló PIR LED érzékelőt, vagyis egy olyan biztonsági eszközt hozzunk létre, amely szinte vizuálisan észrevehetetlen, de pontosan érzékeli egy objektumba történő belépés vagy kilépés eseményét, és az erről összegyűjtött információhalmazt továbbítja a felhasználók részére elektronikus úton.
+Az általunk meghatározott cél lényege, hogy egy soros porton számítógéppel kommunikáló PIR LED érzékelőt, vagyis egy olyan biztonsági eszközt hozzunk létre, amely szinte vizuálisan észrevehetetlen, de pontosan érzékeli egy objektumba történő belépés vagy kilépés eseményét, és az erről összegyűjtött információhalmazt továbbítja a felhasználók részére elektronikus úton. Ehhez szükséges eszközök az Arduino UNO mikrovezérlő, és egy általános felhasználásó számítógép lesz. Ezzek szükséges kevés  programozási ismeret, főleg az Arduinohoz. Ehhez sok oktatási anyagot megtalálhatunk az intereneten. Emellett a LAbview nem egy szokványos programozási eszköz. Grafikusan kell programozni. Ennek használata pofonegyszerű. Sok helyen már általános iskolában is használják a gyerekek programozás megszerettesérre. Ehhez a LEGO által gyártott Minstorm különböző elemekből akár csak egy lego összeállított robotjának programozására használják.
 
 # 2. Jelenlegi helyzet leírása
 
