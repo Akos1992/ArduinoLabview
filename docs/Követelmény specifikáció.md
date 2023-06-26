@@ -1,6 +1,4 @@
-# 0. Követelményspecifikáció
-Itt kerül meghatározásra a projektünkkel kapcsolatos elvárásaink megfogalmazása.
-
+# Követelményspecifikáció
 # 1. Jelenlegi helyzet leírása
 A biztonsági rendszerek fejlődése az informatika fejlődésével egyenes arányban növekszik. A II. világháború után még lakatok, zárak, biztonsági őrök, esetleg őrző kutyák játszották a főszerepet, majd jöttek a tűzjelző berendezések, rádiós jelzések, mágneskártyás beléptetők, távfelügyeletek, vezeték nélküli, internet alapú rendszerek. A nem is olyan távoli jövőben pedig a biometrikus azonosítás kibontakozásának lehetünk szemtanúi az objektumvédelem területén is: már nem csak a mobiltelefonon van lehetőség ujjlenyomattal és arcfelismeréssel feloldania billentyűzárat, hanem hamarosan a munkahelyünkre is biometrikus vizsgálattal léphetünk be.
     
