@@ -89,37 +89,37 @@ Több mérföldkő szerepel terveink között.
 
 
 # 8. Adatbázis terv
-    Adatbázis terv elhanyagolható, adatokat tekintve csak a mozgás kezdetét logoljuk időpontjént. később ez fejleszthető pl távolság kiegészítésével.
+Adatbázis terv elhanyagolható, adatokat tekintve csak a mozgás kezdetét logoljuk időpontjént. később ez fejleszthető pl távolság kiegészítésével.
 
 # 10. Fizikai környezet
-        - Mikrokontroller
-        - Mozgásérzékelő szenzor
-        - Relé
-        - Számítógép
+- Mikrokontroller
+- Mozgásérzékelő szenzor
+- Relé
+- Számítógép
 
 # 11. Architekturális tervezés:
-	Az alkalmazás fő komponensei:
-        - Arduino IDE
-        - Labview
+## Az alkalmazás fő komponensei:
+- Arduino IDE
+- Labview
 	
 
 # 12. Biztonsági funkciók
-    Fejleszést követel, egyelőre az email cím jelszava még nem rejtett
+Fejleszést követel, egyelőre az email cím jelszava még nem rejtett
 
 # 13. Tesztelés
-	A tesztelések célja, hogy a termék megfeleljen minden korábban leírásra került rendszerspecifikációnak.
+A tesztelések célja, hogy a termék megfeleljen minden korábban leírásra került rendszerspecifikációnak.
 	
-	12.2 Alfa teszt
-	A teszt elsődleges célja: a már meglévő funkciók megfelelő illetve (szándékos) hibás adatokkal történő tesztelése. A tesztet a fejlesztők végzik.
-	A teszt akkor mondható sikeresnek ha  a megfelelő adatbevitel után a megfelelő funkció áll rendelkezésre. 
-	A hibás adatok bevitele után pedig a hiba lekezelése megtörténik.
-	(A teszt időtartama ~egy hét.)
+### 12.2 Alfa teszt
+A teszt elsődleges célja: a már meglévő funkciók megfelelő illetve (szándékos) hibás adatokkal történő tesztelése. A tesztet a fejlesztők végzik.
+A teszt akkor mondható sikeresnek ha  a megfelelő adatbevitel után a megfelelő funkció áll rendelkezésre. 
+A hibás adatok bevitele után pedig a hiba lekezelése megtörténik.
+(A teszt időtartama ~egy hét.)
 
-	12.3 Béta teszt
-	Tesztet nem a fejlesztők végzik,  hanem meghatározott számú a fejlesztők által kiválasztott külső tesztelő.
-	A teszt időtartama ~egy hét.
-	A tesztelés alatt a tesztelők dokumentálják a lépéseket.
-	A tesztek után a fejlesztők a lehető leghamarabb kijavítják az esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
+### 12.3 Béta teszt
+Tesztet nem a fejlesztők végzik,  hanem meghatározott számú a fejlesztők által kiválasztott külső tesztelő.
+A teszt időtartama ~egy hét.
+A tesztelés alatt a tesztelők dokumentálják a lépéseket.
+A tesztek után a fejlesztők a lehető leghamarabb kijavítják az esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
 
 # 14. Telepítési terv
 	Labivew runtime telepítése a PC-re
