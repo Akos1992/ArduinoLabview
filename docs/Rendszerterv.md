@@ -57,11 +57,11 @@ A kész verziót Júniusi vizsgaidőszakban nyújtuk bemutatásra.
 
 # 5. Mérföldkövek
 Több mérföldkő szerepel terveink között. 
-0. UNO programozás, adatok beolvasása, soros porton való kommunikáció, az IDE-n leolvasni az adatokat
-0. Második: LAbview programozás, az IDE-n látott soros porti adatok viszont látása egy labview programban
-0. Harmadik: Logolni az adatokat egy CSV fájlban, és excelben nyomon követni
-0. Negyedik: SMTP email használatával, csatolmányt küldeni egy kijelölt címre
-0. Ötödik: Mindezek kombinálása, és a program véglegesítése
+1. UNO programozás, adatok beolvasása, soros porton való kommunikáció, az IDE-n leolvasni az adatokat
+1. Második: LAbview programozás, az IDE-n látott soros porti adatok viszont látása egy labview programban
+1. Harmadik: Logolni az adatokat egy CSV fájlban, és excelben nyomon követni
+1. Negyedik: SMTP email használatával, csatolmányt küldeni egy kijelölt címre
+1. Ötödik: Mindezek kombinálása, és a program véglegesítése
 
 # 6. Követelmények
 	Funkciónális követelmények
