@@ -3,6 +3,23 @@
 A biztonsági rendszerek fejlődése az informatika fejlődésével egyenes arányban növekszik. A II. világháború után még lakatok, zárak, biztonsági őrök, esetleg őrző kutyák játszották a főszerepet, majd jöttek a tűzjelző berendezések, rádiós jelzések, mágneskártyás beléptetők, távfelügyeletek, vezeték nélküli, internet alapú rendszerek. A nem is olyan távoli jövőben pedig a biometrikus azonosítás kibontakozásának lehetünk szemtanúi az objektumvédelem területén is: már nem csak a mobiltelefonon van lehetőség ujjlenyomattal és arcfelismeréssel feloldania billentyűzárat, hanem hamarosan a munkahelyünkre is biometrikus vizsgálattal léphetünk be.
     
 # 2. Vágyálom rendszer leírása
+A mozgásérzékelő rendszernek számos funkcionalitást kell biztosítania a felhasználók számára. Az alábbiakban felsorolok néhány fontos funkciót, amelyeket a követelményspecifikációba fel lehet venni:
+
+- **Mozgásérzékelés**: A rendszernek képesnek kell lennie a mozgás észlelésére a környezetében. Ez magában foglalja az emberi mozgás, az állatok mozgása vagy más tárgyak mozgásának észlelését.
+
+- **Automatizált vezérlés:** A rendszernek lehetővé kell tennie a felhasználók számára az automatizált vezérlést a mozgásérzékelés alapján. Ez magában foglalhatja például a világítás automatikus be- és kikapcsolását, a zárrendszer vezérlését vagy az otthoni biztonsági rendszer aktiválását.
+
+- **Riasztás és értesítés:** A rendszernek képesnek kell lennie riasztások kibocsátására és értesítésekre, amikor mozgást észlel. Ez lehetővé teszi a felhasználók számára, hogy azonnal tudjanak a potenciálisan gyanús tevékenységekről vagy a kritikus helyzetekről.
+
+- **Adatgyűjtés és elemzés:** A rendszernek képesnek kell lennie a mozgásérzékeléssel kapcsolatos adatok gyűjtésére és elemzésére. Ez segíti a felhasználókat a hosszú távú trendek és minták azonosításában, valamint a rendszer finomhangolásában és fejlesztésében.
+
+- **Konfigurálhatóság:** A rendszernek lehetővé kell tennie a felhasználók számára a beállítások testreszabását és a rendszer konfigurálását. Ez magában foglalhatja a mozgás érzékelésének érzékenységét, a riasztás beállításait vagy a vezérlési preferenciákat.
+
+- **Felhasználóbarát kezelőfelület:** A rendszernek rendelkeznie kell egy intuitív és felhasználóbarát kezelőfelülettel, amely lehetővé teszi a felhasználók számára a könnyű navigációt, beállítások módosítását és az adatok megtekintését.
+
+- **Skálázhatóság és kompatibilitás:** A rendszernek képesnek kell lennie a skálázhatóságra, hogy különböző méretű környezetekben használható legyen, és több mozgásérzékelő eszközzel együttműködhessen. Emellett kompatibilisnak kell lennie más rendszerekkel és eszközökkel, például okos otthoni rendszerekkel vagy mobilalkalmazásokkal.
+
+- **Biztonság és adatvédelem:** A rendszernek biztosítania kell a felhasználók személyes adatainak védelmét és a biztonságos adatkezelést. Az adatoknak titkosítottnak és hitelesítettnek kell lenniük, és az ügyfél hozzájárulásával kell kezelni őket.
 A programot úgy tervezzük, hogy – ideális működése esetén – az alábbi funkciókat tartalmazza:
 - Illetéktelen mozgás esetén jelzést adjon a felhasználónak
 - Feszültségérték beállítása, hogy a berendezés mekkora érték felett jelezzen
