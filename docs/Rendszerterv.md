@@ -122,11 +122,11 @@ A tesztelés alatt a tesztelők dokumentálják a lépéseket.
 A tesztek után a fejlesztők a lehető leghamarabb kijavítják az esetleges hibákat illetve a tesztelők észrevételei alapján módosításokat hajthatnak végre.
 
 # 14. Telepítési terv
-	Labivew runtime telepítése a PC-re
-    Arduino IDE telepítése, ami képes felégetni a programot a mikrokontrollerre
+Labivew runtime telepítése a PC-re
+Arduino IDE telepítése, ami képes felégetni a programot a mikrokontrollerre
 
 # 15. Karbantartási terv
-	Időszakonkénti karbantartása szükséges. Lehetőség lesz a githubon talált adatokon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni a fejlesztők részére, amik javításra, fejlesztésre fognak kerülni. 
+Időszakonkénti karbantartása szükséges. Lehetőség lesz a githubon talált adatokon a megadott elérhetőségen panasszal, esetlegesen javaslatokkal élni a fejlesztők részére, amik javításra, fejlesztésre fognak kerülni. 
 
 
 # 16. 🛠 Felhasznált eszközök
