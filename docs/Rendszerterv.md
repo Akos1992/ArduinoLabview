@@ -130,22 +130,21 @@ Időszakonkénti karbantartása szükséges. Lehetőség lesz a githubon talált
 
 
 # 16. 🛠 Felhasznált eszközök
-	- Arduino IDE
-	- LABVIEW
-	- Arduino UNO
-	- Egy csatornás relé modul Arduinohoz
-	- Mozgásérzékelő szenzo
+- Arduino IDE
+- LABVIEW
+- Arduino UNO
+- Egy csatornás relé modul Arduinohoz
+- Mozgásérzékelő szenzor
 
 
 # 18. Szerzők
-
-	- Csík Ákos
-	- Maró Melinda
-	- Kenyeres Tamás
-	- Schmidt Anikó
+- **Csík Ákos**
+- **Maró Melinda**
+- **Kenyeres Tamás**
+- **Schmidt Anikó**
 
 # 19. Visszajelzés
 
-	Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
+Ha bármilyen észrevételed van a projekttel kapcsolatosan, kérünk vedd fel velünk a kapcsolatot az alábbi email címem:
 	jkleasdf66@freemail.hu
 
