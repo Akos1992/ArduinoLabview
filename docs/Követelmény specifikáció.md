@@ -27,10 +27,13 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
 - E-mail értesítő küldése gyakoriságának beállítása
 
 # 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
-- Jogszabályi háttér
-- Szabványok
-- Adatkezelési tájékoztató
-- Általános Szerződési Feltételek (ÁSZF)
+Az alábbiakban néhány releváns jogszabály és szabvány, amelyek kapcsolódnak a mozgásérzékelők és biztonsági rendszerek használatához Magyarországon. Fontos azonban megjegyezni, hogy a jogszabályok és szabványok idővel változhatnak, ezért mindig érdemes ellenőrizni a legfrissebb verziókat és helyi előírásokat.
+
+- Polgári Törvénykönyv (2013. évi V. törvény): A Polgári Törvénykönyv tartalmaz rendelkezéseket az ingatlanok tulajdonjogáról, valamint a biztonsági intézkedésekről és felelősségről.
+- Országos Tűzvédelmi Szabályzat (OTSZ): Az OTSZ tartalmazza a tűzvédelemre vonatkozó előírásokat, ideértve a biztonsági rendszerek, például a tűzjelzők és riasztórendszerek telepítésével kapcsolatos követelményeket.
+- Építési termékek forgalomba hozataláról és felhasználásáról szóló 2015. évi CCXXXV. törvény: Ez a törvény szabályozza az építési termékek forgalmazásával és felhasználásával kapcsolatos követelményeket és előírásokat.
+- MSZ-EN szabványok: Az MSZ-EN (Magyar Szabvány - Európai Norma) szabványok relevánsak lehetnek a mozgásérzékelők és biztonsági rendszerek terén. Például az MSZ-EN 50131 sorozat a riasztórendszerek szabványai, amelyek a telepítési követelményeket és funkcionális jellemzőket határozzák meg.
+- Adatvédelmi szabályozás: A személyes adatok védelmére vonatkozó jogszabályok, például az Európai Unió általános adatvédelmi rendelete (GDPR) és a magyarországi adatvédelmi törvények (pl. 2011. évi CXII. törvény) is fontosak a biztonsági rendszerek működése során kezelt adatok védelme szempontjából.
 
 # 4. Jelenlegi üzleti folyamatok modellje.
 Követelmény Specifikáció: Üzleti folyamatok modellje. Az üzleti modellünk alapja, hogy megismerkedjünk egy magyarországon még nem teljesen kialakult piaci rés kihasználásra. Megismerkedünk a szenzorokkal, azokk felhasználhatóságával. Programozási ismeretink kihasználva, saját és később a vevők személyes igényeinek kielégítése. Így nem egy bizonyos termékcsalád tagjait tudjuk ajánlani egy vásárlónak, hanem egyedi igényeit implementálhatjuk egy rendszerben. Az adatokat később szerveren rögzítjük, annak elérhetőségét, és vezérlését pedig VPN kapcsolattal megoldjuk a felhasználó részére.
