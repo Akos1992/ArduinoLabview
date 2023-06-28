@@ -1,6 +1,6 @@
 # 1. Áttekintés
 
-Az általunk meghatározott cél lényege, hogy egy soros porton számítógéppel kommunikáló PIR LED érzékelőt, vagyis egy olyan biztonsági eszközt hozzunk létre, amely szinte vizuálisan észrevehetetlen, de pontosan érzékeli egy objektumba történő belépés vagy kilépés eseményét, és az erről összegyűjtött információhalmazt továbbítja a felhasználók részére elektronikus úton. Ehhez szükséges eszközök az Arduino UNO mikrovezérlő, és egy általános felhasználásó számítógép lesz. Ezzek szükséges kevés  programozási ismeret, főleg az Arduinohoz. Ehhez sok oktatási anyagot megtalálhatunk az intereneten. Emellett a LAbview nem egy szokványos programozási eszköz. Grafikusan kell programozni. Ennek használata pofonegyszerű. Sok helyen már általános iskolában is használják a gyerekek programozás megszerettesérre. Ehhez a LEGO által gyártott Minstorm különböző elemekből akár csak egy lego összeállított robotjának programozására használják.
+Az általunk meghatározott cél lényege, hogy egy soros porton számítógéppel kommunikáló PIR LED érzékelőt, vagyis egy olyan biztonsági eszközt hozzunk létre, amely szinte vizuálisan észrevehetetlen, de pontosan érzékeli egy objektumba történő belépés vagy kilépés eseményét, és az erről összegyűjtött információhalmazt továbbítja a felhasználók részére elektronikus úton. Ehhez szükséges eszközök az Arduino UNO mikrovezérlő, és egy általános felhasználásó számítógép lesz. Ehhez szükséges kevés  programozási ismeret, főleg az Arduinohoz. Ehhez sok oktatási anyagot megtalálhatunk az intereneten. Emellett a LAbview nem egy szokványos programozási eszköz. Grafikusan kell programozni. Ennek használata pofonegyszerű. Sok helyen már általános iskolában is használják a gyerekek programozás megszerettetésére. Ehhez a LEGO által gyártott Minstorm különböző elemekből akár csak egy lego összeállított robotjának programozására használják.
 
 # 2. Jelenlegi helyzet leírása
 
@@ -14,6 +14,9 @@ A programot úgy tervezzük, hogy – ideális működése esetén – az alább
 -   Feszültségérték beállítása, hogy a berendezés mekkora érték felett jelezzen
 -   Mintavételi időzítő beállítása, hány milisecundumként vesz mintát
 -   E-mail értesítő küldése gyakoriságának beállítása
+
+Egy stabil, általunk létrehozott okosotthon kezdetleges eszközrendszerének első szenzorainak létrehozása. Későbbiekben kiegészíthető a projekt több érzékelővel. Csak egy Arduino UNI eszközön 6 db analóg bemenet található, ez azt jelenti, hogy portjára köthetünk 1-1 érzékelőt. Akár egy vezérlő szabályozhat 1 bizonyos szenzorcsoportot, pl.: mozgásérzékelők. Egy másik mikrokontroller pedig gyűjtheti a hőmérséklet-páratartalom adatokat a különböző szobákból. Mivel a digitális portjait nem is használtuk még; akár egy fűtés vezérlésére is felhasználjuk annak függvényébe, hogy a 6 érzékelőnek az átlag hőmérsékletét vesszük alapul és annak függvényébe vezéreljük a fűtést.
+Egy másik eszköz gyűjtheti a fényérzékelést, és a digitális portjai vezérelhetik a árnyékolástechnikát, mert a kábeles adatkommunikáció mindig is megbízhatóbb volt mint a vezeték nélküli. Érdemes a gépész szobába egy felhelyezett kapcsolószekrénybe gyűjteni a vezérlésekhez szükséges mikrovezérlőt. Az iparban az ilyen automatizációkra PLC-t (Programozható Logikai Vezérlő) használnak. Viszont azok összegei is kiindulva a felhasználásukat, nagyon drága lehet egy átlagos családnak.
     
 # 4. Követelménylista
 - Műszaki ismeretek
