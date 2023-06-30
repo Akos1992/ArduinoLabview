@@ -39,6 +39,10 @@ Egy másik eszköz gyűjtheti a fényérzékelést, és a digitális portjai vez
 
 A napjainkban használt mozgásérzékelők legnagyobb csoportját a passzív infravörös érzékelők adják. Népszerűségüket viszonylag olcsóságuknak, valamint széles felhasználási lehetőségeiknek köszönhetik.  Egy jól kiválasztott és megfelelően telepített mozgásérzékelő önmagában is képes egy teljes helyiség tér- és/vagy tárgyvédelmére.     
     
+**Mikrokontroller (Mikrovezérlő)**
+
+A mikrokontroller egyetlen áramköri lapra szerelt, többnyire vezérlési feladatokat ellátó speciális számítógép; mikroprocesszor integrált perifériákkal kiegészítve. Többféle összeköttetés lehetséges, legtöbbjük képes soros porton való kommunikációra, elektromos áram input/output illetve feszültségszint kezelésére.
+
 **Arduino**
         
 Egy szabad szoftveres, nyílt forráskódú elektronikai fejlesztőplatform, arra tervezve, hogy a különböző projektekben az elektronikus eszközök könnyebben hozzáférhetőek, kezelhetőek legyenek. Széles tömegek számára elérhető, mivel olcsó, könnyen beszerezhető, egyszerűen programozható, és csatlakoztatható más eszközökhöz.
